@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué mirás, bobo?</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header id="home">
+      <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-2" href="#">Segmentation-<span class="text-primary">fault</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#services">Competitve Programming</a></li>
+                      <li><a class="dropdown-item" href="#services">Web Design</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#services">Graphics Design</a>
+                      <li><a class="dropdown-item" href="#services">Back-end Development</a>
+                    </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+
+          <!-- crousel  -->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide m-auto">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="resources/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="resources/banner1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="resources/banner3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+
+    <!-- about section  -->
+    <section class="about m-5" id="about">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">me</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+        </div>
+        <!-- left-section  -->
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12"  data-aos="zoom-in" data-aos-offset="200">
+                <h1>What do you <span class="text-primary">want to know?</span></h1>
+                
+                <p class="p-2">
+                  I'm MD. Tahsin Ferdous, a passionate software developer with a focus on backend development and a background in competitive programming. My journey in programming began with the thrill of competitive coding challenges, where I honed my problem-solving skills and developed a deep understanding of algorithms and data structures.
+                </p>
+                <a target="_blank" href="https://www.facebook.com/tahsin.ferdous.35/" class="btn btn-primary mb-5">More about me</a>
+                <div class="accordion my-5" id="accordionExample"  data-aos="zoom-in-left" data-aos-offset="200">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                My Hobbies
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. -->
+                            <p>
+                              I have a diverse range of interests that extend beyond software development. When I'm not coding, you can often find me pursuing my passions in speed cubing, football analytics, and competitive programming.
+                          </p>
+                          <p>
+                              Speed cubing is not just a hobby for me; it's a mental challenge that I find incredibly rewarding. Solving Rubik's cubes and other twisty puzzles has taught me patience, perseverance, and problem-solving skills that I apply to my coding projects.
+                          </p>
+                          <p>
+                              As a football enthusiast, I enjoy diving deep into the world of sports analytics. Analyzing player performance, game strategies, and match statistics fascinates me, and I'm always on the lookout for innovative approaches to football analytics.
+                          </p>
+                          <p>
+                              Competitive programming has been a cornerstone of my journey as a software developer. Participating in coding competitions sharpens my algorithmic thinking and keeps me motivated to continuously improve my coding skills.
+                          </p>
+                          <p>
+                              These interests not only provide me with a well-rounded perspective but also fuel my curiosity and drive for excellence in everything I do.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            My Qualifications
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. -->
+                            <p>
+                              I have a strong academic background in the field of computer science. I completed my SSC from Cox's Bazar Govt. High School and my HSC from Cox's Bazar Govt. College, where I developed a solid foundation in mathematics, science, and technology.
+                          </p>
+                          <p>
+                              Currently, I am pursuing a B.Sc in Computer Science and Engineering at City University. This program has provided me with a comprehensive understanding of computer systems, software development, and problem-solving techniques. I am passionate about learning and applying cutting-edge technologies to solve real-world problems.
+                          </p>
+                          <p>
+                              My educational journey has equipped me with the necessary skills and knowledge to excel in the field of computer science, and I am excited to continue my academic and professional development in this dynamic and ever-evolving field.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            My Dreams
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. -->
+                            <p>
+                              My journey in the world of programming is guided by ambitious goals and a relentless pursuit of excellence. Here are some of my aspirations:
+                          </p>
+                          <ul>
+                              <li>
+                                  <strong>Become a Specialist on Codeforces:</strong> My dream is to excel in competitive programming and achieve the prestigious title of Specialist on Codeforces. I aim to showcase my problem-solving skills and algorithmic expertise on this renowned platform.
+                              </li>
+                              <li>
+                                  <strong>Reach 3-Star Coder on CodeChef:</strong> I aspire to demonstrate my proficiency in competitive programming by attaining the title of a 3-star coder on CodeChef. This milestone reflects my commitment to solving complex problems efficiently and effectively.
+                              </li>
+                              <li>
+                                  <strong>Solve 1000 Problems on Codeforces:</strong> To continually challenge myself and expand my problem-solving abilities, I have set a goal to solve 1000 problems on Codeforces. Each solved problem contributes to my growth as a programmer and prepares me for future coding challenges.
+                              </li>
+                              <li>
+                                  <strong>Participate in the ICPC Dhaka Regional - 2024:</strong> I am eager to collaborate with talented individuals and compete at the highest level of collegiate programming by participating in the ICPC Dhaka Regional - 2024. This competition provides an opportunity to test my skills and learn from fellow participants.
+                              </li>
+                              <li>
+                                  <strong>Become a Backend Engineer:</strong> In addition to my passion for competitive programming, I am dedicated to pursuing a career as a backend engineer. I am drawn to the challenges of building scalable, efficient, and robust backend systems that power modern web applications.
+                              </li>
+                          </ul>
+                          <p>
+                              With determination and perseverance, I am committed to achieving these goals and making a meaningful impact in the field of computer science.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right-section  -->
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end"  data-aos="fade-left" data-aos-offset="200">
+            <img class="img-fluid img-thumbnail" src="resources/profile-pic (3).png" alt="">
+        </div>
+    </div>
+</section>
+
+
+<section class="services py-5 bg-light" id="services">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1>Services provide by <span class="text-primary">my team</span></h1>
+            <hr class="w-25 m-auto">
+        </div>
+        
+        <div class="row" data-aos="zoom-in-up" data-aos-offset="200">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-code bg-primary p-2 text-white rounded  mb-2"></i>
+                      <h5 class="card-title">Competitive Programming</h5>
+                      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                      <p class="card-text">
+                        Our competitive coding solutions offer expert problem-solving strategies and optimized algorithms to excel in coding competitions. From Codeforces to CodeChef, one-to-one problem discussion, doubt solving session etc.. we deliver precise and efficient solutions tailored for success.
+                    </p>
+                      <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        <i class="fa fa-users bg-white p-2 text-dark rounded  mb-2"></i>
+                      <h5 class="card-title">Web Design</h5>
+                      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                      <p class="card-text">
+                        Our web design services create visually stunning and user-friendly websites that captivate and convert. From concept to launch, we specialize in crafting custom designs that elevate your online presence and engage your audience for a better reach and recognition. 
+                    </p>
+                      <a href="#contact" class="btn btn-primary bg-white text-dark">Contact Us</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-users bg-primary p-2 text-white rounded  mb-2"></i>
+                      <h5 class="card-title">Back-end development</h5>
+                      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                      <p class="card-text">
+                        Our back-end development solutions empower your web applications with robust and scalable architectures. From database design to API development, we specialize in crafting efficient and secure back-end systems that power your digital presence.
+                    </p>
+                      <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="row mt-5" data-aos="zoom-in-down" data-aos-offset="200">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-code bg-primary p-2 text-white rounded mb-2"></i>
+                      <h5 class="card-title">Competitive Programming</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        <i class="fa fa-amazon bg-white p-2 text-dark rounded  mb-2"></i>
+                      <h5 class="card-title">Web Design</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary bg-white text-dark">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-google bg-primary p-2 text-white rounded  mb-2"></i>
+                      <h5 class="card-title">Graphics Design</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+<section class="team my-5 text-center" id="team">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1  data-aos="fade-in" data-aos-offset="200">Our <span class="text-primary">Team</span></h1>
+            <hr class="w-25 m-auto">
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card"  data-aos="zoom-in-right" data-aos-offset="200">
+                    <div class="card-body">
+                        <img class="img-fluid rounded-circle border border-primary p-2" src="resources/profile-pic (4).png" alt="">
+                      <h5 class="card-title mt-4">Tahsin / Team lead</h5>
+                      <p class="card-text">Competitive Programmer</p>
+                      <!-- <a href="#" class="btn btn-primary">Contact</a> -->
+                      <a href="mailto:tahsin.ferdous3546@gmail.com" class="btn btn-primary">Contact</a>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" data-aos="zoom-in-down" data-aos-offset="200">
+                    <div class="card-body">
+                        <img class="img-fluid rounded-circle border border-primary p-2" src="resources/niloy.jpg" alt="">
+                      <h5 class="card-title mt-4">Niloy</h5>
+                      <p class="card-text">Competitive Programmer</p>
+                      <!-- <a href="#" class="btn btn-primary">Contact</a> -->
+                      <a href="mailto:niloybiswass097@gmail.com" class="btn btn-primary">Contact</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" data-aos="zoom-in-left" data-aos-offset="200">
+                    <div class="card-body">
+                        <img class="img-fluid rounded-circle border border-primary p-2" src="resources/mahin.jpg" alt="">
+                      <h5 class="card-title mt-4">Mahin</h5>
+                      <p class="card-text">Graphics Designer / UI/UX</p>
+                      <!-- <a href="#" class="btn btn-primary">Contact</a> -->
+                      <a href="https://touhidurmahin.com/" class="btn btn-primary" target="_blank">Contact</a>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" data-aos="zoom-in-left" data-aos-offset="200">
+                    <div class="card-body">
+                        <img class="img-fluid rounded-circle border border-primary p-2" src="resources/rean.png" alt="">
+                      <h5 class="card-title mt-4">Rean</h5>
+                      <p class="card-text">Mern Stack Developer</p>
+                      <!-- <a href="#" class="btn btn-primary">Contact</a> -->
+                      <!-- <a href="mailto:rezuanrean.cse@gmail.com" class="btn btn-primary">Contact</a> -->
+                      <a href="https://rean-portfolio.vercel.app/" class="btn btn-primary" target="_blank">Contact</a>
+
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card"data-aos="zoom-in-up" data-aos-offset="200">
+                    <div class="card-body">
+                        <img class="img-fluid rounded-circle border border-primary p-2" src="resources/rizu.jpg" alt="">
+                      <h5 class="card-title mt-4">Rizu</h5>
+                      <p class="card-text">Back-end Developer</p>
+                      <!-- <a href="#" class="btn btn-primary">Contact</a> -->
+                      <a href="mailto:rizurasel.cse@gmail.com" class="btn btn-primary">Contact</a>
+
+                    </div>
+                  </div>
+            </div> 
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" data-aos="zoom-in-right" data-aos-offset="200">
+                    <div class="card-body">
+                        <img class="img-fluid rounded-circle border border-primary p-2" src="resources/ridwan.jpg" alt="">
+                      <h5 class="card-title mt-4">Ridwan</h5>
+                      <p class="card-text">Manager</p>
+                      <!-- <a href="#" class="btn btn-primary">Contact</a> -->
+                      <a href="mailto:ridu116540@gmail.com" class="btn btn-primary">Contact</a>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact py-5" id="contact">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1>Feel free <span class="text-primary">to Connect</span></h1>
+            <hr class="w-25 m-auto">
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up-left"
+          data-aos-offset="200">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <!-- <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div> -->
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <!-- <div class="col-md-4">
+                <label for="inputState" class="form-label">District</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div> -->
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">District</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Bagerhat</option>
+                    <option>Bandarban</option>
+                    <option>Barguna</option>
+                    <option>Barishal</option>
+                    <option>Bhola</option>
+                    <option>Bogra</option>
+                    <option>Brahmanbaria</option>
+                    <option>Chandpur</option>
+                    <option>Chapai Nawabganj</option>
+                    <option>Chattogram</option>
+                    <option>Chuadanga</option>
+                    <option>Comilla</option>
+                    <option>Cox's Bazar</option>
+                    <option>Dhaka</option>
+                    <option>Dinajpur</option>
+                    <option>Faridpur</option>
+                    <option>Feni</option>
+                    <option>Gaibandha</option>
+                    <option>Gazipur</option>
+                    <option>Gopalganj</option>
+                    <option>Habiganj</option>
+                    <option>Jamalpur</option>
+                    <option>Jashore</option>
+                    <option>Jhalokati</option>
+                    <option>Jhenaidah</option>
+                    <option>Joypurhat</option>
+                    <option>Khagrachari</option>
+                    <option>Khulna</option>
+                    <option>Kishoreganj</option>
+                    <option>Kurigram</option>
+                    <option>Kushtia</option>
+                    <option>Lakshmipur</option>
+                    <option>Lalmonirhat</option>
+                    <option>Madaripur</option>
+                    <option>Magura</option>
+                    <option>Manikganj</option>
+                    <option>Meherpur</option>
+                    <option>Moulvibazar</option>
+                    <option>Munshiganj</option>
+                    <option>Mymensingh</option>
+                    <option>Naogaon</option>
+                    <option>Narail</option>
+                    <option>Narayanganj</option>
+                    <option>Narsingdi</option>
+                    <option>Natore</option>
+                    <option>Nawabganj</option>
+                    <option>Netrokona</option>
+                    <option>Nilphamari</option>
+                    <option>Noakhali</option>
+                    <option>Pabna</option>
+                    <option>Panchagarh</option>
+                    <option>Patuakhali</option>
+                    <option>Pirojpur</option>
+                    <option>Rajbari</option>
+                    <option>Rajshahi</option>
+                    <option>Rangamati</option>
+                    <option>Rangpur</option>
+                    <option>Satkhira</option>
+                    <option>Shariatpur</option>
+                    <option>Sherpur</option>
+                    <option>Sirajganj</option>
+                    <option>Sunamganj</option>
+                    <option>Sylhet</option>
+                    <option>Tangail</option>
+                    <option>Thakurgaon</option>
+                </select>
+            </div>
+            
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <input type="text" class="form-control" id="inputMessage">
+                </div>
+            </div>
+            
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="fade-up-left"
+          data-aos-offset="200">
+            <img class="img-fluid img-thumbnail p2" src="resources/profile-pic (3).png" alt="">
+          </div>
+        </div>
+    </div>
+</section>
+
+<div class="container-fluid bg-primary text-white p-2 text-center fs-4">Developed by MD. Tahsin Ferdous</div>
+
+<!-- script section  -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
